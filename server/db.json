@@ -1,0 +1,65 @@
+{
+  "users": [
+    {
+      "id": "4479",
+      "name": "luis",
+      "email": "luis@gmail.com",
+      "birthdate": "12/12/1993",
+      "password": "$2a$10$HNj3qFZ2xIB9rul/5H1ysO1Pud9YnDltNRQhyGdWF6INajnqbAM5q",
+      "role": "administrador"
+    },
+    {
+      "id": "d7f5",
+      "name": "elver",
+      "email": "elver@gmail.com",
+      "birthdate": "12/01/1992",
+      "password": "$2a$10$D5L5QHWhpRoEKJAHKlVA1.ABE2MFtpiNn0mSTH4GNUfQ3H/HxGYo.",
+      "role": "usuario"
+    }
+  ],
+  "roles": [
+    {
+      "id": "1",
+      "role": "administrador"
+    },
+    {
+      "id": "2",
+      "role": "usuario"
+    }
+  ],
+  "flights": [
+    {
+      "id": "9668",
+      "number": "1",
+      "origin": "LAX",
+      "destination": "ALEMANIA",
+      "departure": "2024-06-07",
+      "arrival": "2024-06-13",
+      "capacity": "123",
+      "status": true
+    }
+  ],
+  "booking": [
+    {
+      "id": "e597",
+      "flightId": "9668",
+      "userId": "d7f5",
+      "bookinDate": "2024-06-05T23:24:34.723Z",
+      "status": true
+    },
+    {
+      "id": "4b1e",
+      "flightId": null,
+      "userId": "d7f5",
+      "bookinDate": "2024-06-05T23:28:37.754Z",
+      "status": true
+    },
+    {
+      "id": "e681",
+      "flightId": "9668",
+      "userId": "d7f5",
+      "bookinDate": "2024-06-06T00:20:15.722Z",
+      "status": true
+    }
+  ]
+}
